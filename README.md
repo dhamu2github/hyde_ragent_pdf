@@ -1,6 +1,6 @@
 # PDF Insights: Agentic RAG with HyDE and MCP
 
-A sophisticated document question-answering system that combines Hypothetical Document Embeddings (HyDE) with Model Context Protocol (MCP) to provide accurate, personalized responses to questions about PDF documents.
+A sophisticated document question-answering system that combines Hypothetical Document Embeddings (HyDE) with Agents (LangGraph Framework) & Model Context Protocol (MCP) to provide accurate, personalized responses to questions about PDF documents.
 
 ![PDF Insights Application](./docs/images/app-screenshot.jpeg)
 
@@ -178,8 +178,6 @@ This system uses Hypothetical Document Embeddings (HyDE) to improve retrieval ac
 
 ### Backend Setup
 ```bash
-# Navigate to backend directory
-cd backend
 
 # Create a virtual environment
 python -m venv venv
