@@ -2,7 +2,7 @@
 
 A sophisticated document question-answering system that combines Hypothetical Document Embeddings (HyDE) with Model Context Protocol (MCP) to provide accurate, personalized responses to questions about PDF documents.
 
-![PDF Insights Application](docs/images/app-screenshot.png)
+![PDF Insights Application](./docs/images/app-screenshot.png)
 
 ## Table of Contents
 
@@ -161,13 +161,13 @@ The Model Context Protocol is a structured approach to providing context and gui
 ### 4. Ethical Guidelines
 - Rules ensuring AI responses are accurate, helpful, and responsible
 
-See [MCP Diagram](docs/mcp-diagram.txt) for a visual representation of the MCP architecture.
+See [MCP Diagram](./docs/mcp-diagram.txt) for a visual representation of the MCP architecture.
 
-For a detailed comparison between traditional RAG and our MCP-enhanced approach, see [RAG vs MCP-RAG](docs/rag-vs-mcp-rag.md).
+For a detailed comparison between traditional RAG and our MCP-enhanced approach, see [RAG vs MCP-RAG](./docs/rag-vs-mcp-rag.md).
 
 ## Hypothetical Document Embeddings (HyDE)
 
-This system uses Hypothetical Document Embeddings (HyDE) to improve retrieval accuracy by bridging the semantic gap between user queries and document content. Learn more about this approach in [HyDE Explained](docs/hyde-explained.md).
+This system uses Hypothetical Document Embeddings (HyDE) to improve retrieval accuracy by bridging the semantic gap between user queries and document content. Learn more about this approach in [HyDE Explained](./docs/hyde-explained.md).
 
 ## Installation and Setup
 
