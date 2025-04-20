@@ -2,7 +2,7 @@
 
 A sophisticated document question-answering system that combines Hypothetical Document Embeddings (HyDE) with Model Context Protocol (MCP) to provide accurate, personalized responses to questions about PDF documents.
 
-![PDF Insights Application](./docs/images/app-screenshot.png)
+![PDF Insights Application](./docs/images/app-screenshot.jpeg)
 
 ## Table of Contents
 
