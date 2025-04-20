@@ -46,18 +46,18 @@ The system allows users to upload PDF documents, ask questions about them, and r
 │                                     │     │                                     │
 └─────────────────────────────────────┘     └─────────────────────────────────────┘
                   │                                           │
-                  │        HTTP/REST API Calls               │
+                  │        HTTP/REST API Calls                │
                   └───────────────────────────────────────────┘
                                      │
                                      ▼
                     ┌─────────────────────────────────┐
-                    │        External Services         │
-                    │                                  │
+                    │        External Services        │
+                    │                                 │
                     │  ┌───────────────┐  ┌─────────┐ │
                     │  │ OpenAI API    │  │ Ollama  │ │
                     │  │ (GPT-4o)      │  │ (Local) │ │
                     │  └───────────────┘  └─────────┘ │
-                    │                                  │
+                    │                                 │
                     └─────────────────────────────────┘
 ```
 
@@ -109,14 +109,14 @@ The system allows users to upload PDF documents, ask questions about them, and r
 └─────────────────────────────────────────────────────┘   │
    │                                                      ▼
    ▼                                                ┌────────────┐
-┌────────────┐    ┌────────────────────────┐       │ FAISS      │
-│ User Query │ -> │ MCP Context Generation │       │ Vector     │
-│            │    │ (Preferences + Query)  │       │ Store      │
-└────────────┘    └────────────────────────┘       └────────────┘
+┌────────────┐    ┌────────────────────────┐        │ FAISS      │
+│ User Query │ -> │ MCP Context Generation │        │ Vector     │
+│            │    │ (Preferences + Query)  │        │ Store      │
+└────────────┘    └────────────────────────┘        └────────────┘
    │                       │                             ▲
    │                       ▼                             │
-   │               ┌────────────────────────┐           │
-   │               │ Hypothetical Document  │ ──────────┘
+   │               ┌────────────────────────┐            │
+   │               │ Hypothetical Document  │  ──────────┘
    │               │ Passage Generation     │   Vector Search
    │               └────────────────────────┘
    │                       │
